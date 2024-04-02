@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>single page website</title>
+    <link rel="stylesheet"  href="style.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+                <p class="first">Mahi Ponting</p><br><br>
+
+                <p class="second">
+                    <i class="fa-regular fa-envelope">
+                       mahiipont@gmail.com
+                    </i><br><br>
+                    
+                </p>
+                <p class="third">1234567819</p>
+                <div class="panel-opn">
+                        <p class="border">About Me</p>
+                        <p class="border">Skills</p>
+                        <p class="border">projects</p>
+                        <p class="border">Recommendation</p>
+                </div> 
+            
+
+        </div>
+        <div class="about-me">
+            <img src="banner-cta-img.svg">
+            <p class="info"><div class="info-sps">Hi, I'm Jane Doe!</div>
+                <br>
+                <br>
+                I am a full stack developer with 2 years of experience in both application and<br> presentation layers I have worked on applications and microservices deployed on IBM Cloud.<br> I am an avid user of IBM Watson Services and have worked on Watson Assistant NLU, Sentiment analyzer to name a few</p>
+        </div>
+
+        <div class="skills">
+            <div class="html">
+                <img src="html.png">
+                <h5 class="head">HTML</h5><br>
+                <p class="exp">4 years of experience</p>
+            </div>
+            <div class="javascript">
+                <img src="js.png">
+                <p class="js">JAVASCRIPT</p>
+                <p class="js"> 3 years of experience</p>
+            </div>
+            <div class="java">
+                <img src="java.png">
+                <p class="jv">JAVA</p>
+                <p class="yrs4">4 years of experience</p>
+            </div>
+
+            <div class="react">
+                <img src="react.png">
+                <p class="rct">REACT</p>
+                <p class="yrs3">4 years of experience</p>
+            </div>
+            <br><br>
+        </div>
+        <div class="skill">
+            <div class="node">
+                <img src="node.png">
+                <p class="nd">NODE</p>
+                <p class="years4">4 years of experience</p>
+                
+            </div>
+            <div class="css">
+                <img src="css.png">
+                <p class="css1">CSS</p>
+                <p class="css-yrs">4 years of experience</p>
+            </div>
+            
+            
+        </div>
+        <div class="project">
+            <p class="prj"> Projects</p>
+            <div class="prjs">
+                <p>Blogging Platform:</p>
+                <p class="disc">• Create a simple blogging platform where users can sign up, create posts, and interact with other users' posts (like, comment, share). You can use technologies like HTML, CSS, JavaScript, Node.js, and MongoDB for database management.</p>
+                <p>Recipe Finder:</p>
+                <p class="disc">•  Create a recipe finder application that allows users to search for recipes based on ingredients, cuisine, or dietary restrictions. You can use HTML, CSS, JavaScript, and APIs like Edamam or Spoonacular for recipe data.</p>
+                <p>Expense Tracker:</p>
+                <p class="disc">•  Build an expense tracker application that allows users to track their expenses, categorize them, and view spending trends over time. You can use HTML, CSS, JavaScript, and a database like SQLite or MongoDB for data storage.</p>
+            </div>
+            
+        </div>
+        <div class="recomendation">
+            <p>Recommendation</p>
+            <div class="abc">
+                <p class="recom">Jane possesses an innate ability to swiftly grasp complex web development concepts, demonstrating a remarkable aptitude for learning and adapting to new technologies. Her keen intellect and insatiable curiosity drive her to ask insightful questions effortlessly building rapport with colleagues and inspiring others with her positivity and encouragement.</p><br><br>
+                <p class="recom">What truly sets Jane   apart is her outstanding attitude and     unwavering commitment to teamwork. She  approaches every task with enthusiasm,   contributing not only her technical   expertise but also her collaborative  spirit. Jane thrives in a team   environment, effortlessly building    rapport with colleagues and inspiring  others with her positivity and   encouragement.</p><br><br>
+                <p class="recom">Moreover, Jane exhibits exceptional leadership potential. She consistently takes initiative within our team, demonstrating a proactive approach   to problem-solving and a natural ability to inspire and motivate others. Her  strong communication skills and ability to effectively delegate tasks make her an invaluable asset to any project.</p>
+
+            </div>
+        </div>
+
+        <div class="recommendation">
+            <div id="recommendation">
+                <h1 class="new-recom"> New Recommendation</h1>
+                <!-- Submitted recommendations will be displayed here -->
+                <!-- Each recommendation will be added as a new <p> element -->
+                    
+            </div>
+        </div>
+        <form id="recommendationForm">
+            <label for="recommendationInput">Leave your recommendation:</label><br>
+            <textarea id="recommendationInput" rows="4" cols="50"></textarea><br>
+            <button type="submit">Submit Recommendation</button>
+        </form>
+        </div>
+    
+        <!-- Popup modal -->
+        <div id="popupModal" class="popup-modal">
+            <div class="popup-content">
+                <span class="close">&times;</span>
+                <p id="popupMessage">Thank you for submitting a recommendation!</p>
+            </div>
+        </div>
+    
+
+
+
+       
+       
+    </header>
+    <script src="script.js"></script>
+</body>
+</html>                                                                                                                                                                                                                                                                                                                                 

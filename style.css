@@ -1,0 +1,276 @@
+*{
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left:0px;
+    margin-bottom:0px;
+}
+.navbar{
+
+    background-color: #0f1111;
+    color:white;
+    justify-content:space-evenly;
+    height:8.7rem; 
+    margin-left:0px;
+
+}
+.msg-icon{
+    color:rgb(255, 255, 255);
+}
+.nav-add{
+    display:flex;
+
+}
+.panel-opn{
+    display:flex;
+    justify-content:space-evenly;
+    margin-left:650px;
+    background-color:black;
+    margin-bottom:100px
+}
+.border:hover{
+    border:2px solid white;
+}
+.border-1:hover{
+    border:2px solid white;
+}
+.first{
+    margin-left :10px;
+    height:10px;
+}
+.first:hover{
+    border:2px solid white
+}
+.second{
+    margin-left: 10px;
+    font-family:cursive;
+    font-size: 15px;
+}
+.second:hover{
+    border:2px solid white
+}
+.third{
+    margin-left:10px;
+    font-size:1rem;
+}
+.about-me{
+    display:flex;
+    margin-top:200px;
+    margin-left:100px;
+    font-size:30px
+}
+.info{
+    margin-top:100px;
+    font-size:20px;
+    margin-left:50px;
+    margin-right:50px
+}
+.info-sps{
+    color:red;
+    font-size:50px
+}
+
+/*/////////////////////////////////////*/
+
+.skills{
+    display:flex;
+    margin-top:200px;
+    justify-content:space-evenly;
+}
+
+.html{
+    border:1px solid black;
+    margin-top:20px;
+    padding:40px;
+    margin-left:40px
+}
+.head{
+    margin-left:88px;
+    font-size:20px
+}
+.exp{
+    margin-left: 30px;
+    font-size:25px;
+    margin-top:20px;
+}
+.javascript{
+    border:1px solid black;
+    margin-top:20px;
+    margin-left:60px;
+}
+.js{
+    margin-left:60px;
+    font-size:25px;
+    padding:30px;
+    margin-top:20px;
+    
+}
+.jv{
+   margin-left:78px; 
+   font-size:25px;
+   margin-top:20px;
+
+}
+.java{
+    border:1px solid black;
+    margin-top:20px;
+    padding:10px;
+    margin-left:50px;
+}
+.yrs4{
+    margin-left:40px;
+    font-size:25px;
+    margin-top:60px
+}
+.rct{
+    margin:70px;
+    font-size:20px
+}
+.yrs3{
+    margin-left:40px;
+    font-size:20px; 
+}
+.react{
+    margin-top:20px;
+    border:1px solid black;
+    padding:30px;
+    margin-right:30px;
+}
+
+/*//////////////////////////////////////*/
+
+.skill{
+    margin-top:10px;
+    display:flex;
+    justify-content:space-evenly;
+}
+
+
+.node{
+    margin-top:20px;
+    border:1px solid black;
+    margin-right:780px;
+    
+    
+}
+.nd{
+    margin-left:100px;
+    margin-top:2px;
+    font-size:25px;
+}
+.years4{
+    margin-left:70px;
+    font-size:20px;
+    margin-top:50px;
+    margin-bottom:100px;
+}
+.css{
+    border:1px solid black;
+    margin-top:20px;
+    padding:20px;
+  
+    
+}
+.css1{
+    margin-left:120px;
+    font-size:20px;
+    margin-top:20px;
+}
+.css-yrs{
+    margin-left:60px;
+    font-size:17px;
+    margin-bottom:30px;
+    margin-top:20px;
+}
+.project{
+    margin-top:200px;
+    margin-left:20px
+}
+.prj{
+    color:rgb(0, 0, 0);
+    font-size:50px;
+}
+
+.prjs{
+    font-size:35px;
+    margin-left:70px;
+    margin-top:60px;
+
+}
+.disc{
+    margin-left:50px;
+    font-size:25px;
+    margin-top:30px;
+    margin-bottom:30px
+    
+}
+.recomendation{
+    font-size:60px;
+    margin-top:300px;
+    display:flex;
+    color:rgb(0, 0, 0);
+    margin-left:20px;
+   
+}
+.recom{
+    font-size:20px;
+   
+    color:black;
+    margin-top:200px;
+    padding-inline-end: 0%;
+    border:2px solid black;
+    margin-right:50px;
+}
+.new-recom{
+   
+    margin-top:20px;
+    display:flex
+}
+.recommendation{
+    border:2px solid black;
+    margin-top:40px;
+    display:flex;
+}
+#recommendationForm{
+    font-size:30px;
+    margin-top:100px
+}
+
+
+/* Styles for the popup modal */
+.popup-modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.popup-content {
+    background-color: #18eeee;
+    margin: 20% auto;
+    padding: 20px;
+    border: 2px solid #ffcf0e;
+    width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(2, 5, 5.0, 0.19);
+}
+
+.close {
+    float:unset;
+    cursor:crosshair;
+}
+
+.close:hover {
+    color: rgb(244, 0, 0);
+}
+
+.panel-opn:hover{
+    font-weight:bolder;
+}
+.abc{
+    display:flex;
+    justify-content:space-evenly;
+    margin-bottom:90px;
+}
